@@ -18,55 +18,49 @@
         text-align: center;
       }
 
+      header-container {
+        font-size: 50px;
+        text-align: center;
+      }
+
       .screenshot-container {
         border: 1px solid #d1d5db;
         border-radius: 8px;
         padding: 12px;
         background: #f9fafb;
+        text-align: center;
       }
 
       .screenshot {
         max-width: 100%;
         height: auto;
         border-radius: 6px;
+        text-align: center;
       }
 
       .caption {
         font-family: "Comic Sans MS", "Comic Sans", cursive;
         font-size: 20px;
         margin: 0 0 12px;
+        text-align: center;
       }
 
       .container {
         font-family: "Comic Sans MS", "Comic Sans", cursive;
-      }
-
-      .flashing-red {
-        margin-bottom: 20px;
+        text-align: center;
       }
     </style>
   </head>
   <body>
-    <div>
-      <div>
-        <h1 class="flashing-red">
-          <img
-            src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExcTVremU4ZHZmNnRpZmFic2tpbzI1d3g0OWUwNnZuOXlmYzI4YjAxciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3og0IOa1X349KZ8E1i/giphy.gif"
-            width="60"
-          />GO ONER DETECTED!
-          <img
-            src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExcTVremU4ZHZmNnRpZmFic2tpbzI1d3g0OWUwNnZuOXlmYzI4YjAxciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3og0IOa1X349KZ8E1i/giphy.gif"
-            width="60"
-          />
-        </h1>
-      </div>
-
-      <div class="screenshot-container">
-        <img class="screenshot" src="{{screenshot}}" alt="screenshot" />
-      </div>
-
-      <p class="caption"><br />what is this diddy blud doing???</p>
+    <div class="header-container">
+      <h1>🚨 GO ONER DETECTED 🚨</h1>
     </div>
+
+    <div class="screenshot-container">
+      <img class="screenshot" src="{{screenshot}}" alt="screenshot" />
+    </div>
+
+    <p class="caption"><br />what is this diddy blud doing???</p>
 
     <div class="container">
       <footer class="py-3 my-4">
